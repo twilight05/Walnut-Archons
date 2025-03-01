@@ -1,0 +1,46 @@
+/* css style for the navbar added by Anne */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    padding: 10px 5%;
+    background-color: bisque;
+     
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 50;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+    list-style: none;
+    color: black;
+    }
+
+    nav ul li a:hover {
+        color: #ff4500;
+    }
+div img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* margin: 20px; */
+}
