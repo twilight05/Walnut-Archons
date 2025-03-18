@@ -45,3 +45,14 @@ div img {
     /* margin: 20px; */
 }
 body{font-family: roboto;}
+
+/* Importing the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+/*Added inline display to nav list*/
+.nav-item {
+    margin: 0 15px;
+    display: inline;
+}
+
